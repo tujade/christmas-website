@@ -1,5 +1,12 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*=============== FONTS ===============*/
+@font-face {
+  src: url(blackchancery.regular.ttf);
+  font-family: 'Black Chancery';    
+  font-weight: normal;
+} 
+body{
+font-family: 'Black Chancery'; 
+}
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -17,15 +24,15 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Black Chancery', sans-serif;
   
-  --biggest-font-size: 1.5rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --biggest-font-size: 1.6rem;
+  --h1-font-size: 1.6rem;
+  --h2-font-size: 1.35rem;
+  --h3-font-size: 1.05rem;
+  --normal-font-size: .948rem;
+  --small-font-size: .818rem;
+  --smaller-font-size: .80rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
