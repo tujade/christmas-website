@@ -1,20 +1,20 @@
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close')
+    navToggle = document.getElementById('nav-toggle'),
+    navClose = document.getElementById('nav-close')
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
-if(navToggle){
-    navToggle.addEventListener('click', () =>{
+if (navToggle) {
+    navToggle.addEventListener('click', () => {
         navMenu.classList.add('show-menu')
     })
 }
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
-if(navClose){
-    navClose.addEventListener('click', () =>{
+if (navClose) {
+    navClose.addEventListener('click', () => {
         navMenu.classList.remove('show-menu')
     })
 }
@@ -22,7 +22,7 @@ if(navClose){
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll('.nav__link')
 
-function linkAction(){
+function linkAction() {
     const navMenu = document.getElementById('nav-menu')
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu')
@@ -31,23 +31,39 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
-function scrollHeader(){
+function scrollHeader() {
     const header = document.getElementById('header')
     // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
-    if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
+    if (this.scrollY >= 50) header.classList.add('scroll-header');
+    else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== NEW SWIPER ===============*/
+var newSwiper = new Swiper(".new-swiper", {
+    spaceBetween: 24,
+    loop: true,
+    slidesPerView: 'auto',
+    centeredSlides: true,
 
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true
+    },
+    breakpoints: {
+        992: {
+            spaceBetween: 80,
+        },
+    },
+});
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 
-/*=============== SHOW SCROLL UP ===============*/ 
+/*=============== SHOW SCROLL UP ===============*/
 
 
-/*=============== DARK LIGHT THEME ===============*/ 
+/*=============== DARK LIGHT THEME ===============*/
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
