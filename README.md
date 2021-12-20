@@ -1,6 +1,6 @@
 # Responsive Christmas Website ⛄️
-## [Watch it on youtube](https://youtu.be/HrZSQpxfIxw)
-### Responsive Christmas Website ⛄️
+
+## Responsive Christmas Website ⛄️
 
 - Responsive Christmas Website Using HTML CSS & JavaScript
 - Contains animations when scrolling.
@@ -9,6 +9,16 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+<img src="image/README/1640041043927.png" style="zoom:50%;" />
 
-![preview img](/preview.png)
+<img src="image/README/1640041070577.png" style="zoom:50%;" />
+
+<img src="image/README/1640041104962.png" style="zoom:50%;" />
+
+### Assets
+
+*  [Icons](https://boxicons.com/)
+* [Swiper](https://swiperjs.com/)
+* [Scroll Reveal](https://scrollrevealjs.org/)
+* [Font](https://www.1001fonts.com/blackchancery-font.html)
+* [Inspiration](https://www.youtube.com/channel/UCgkDs77BoEhMIgRUB4MKrtQ)
