@@ -94,4 +94,4 @@ Contact Us
 Available On
 
 .footer__copy
-&#169; Bedimcode. All rigths reserved
+&#169; JadeDiniz. All rigths reserved
